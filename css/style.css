@@ -17,7 +17,7 @@ section {
     --Lobster: "Lobster", cursive;
     --light-black: #2e2e2caf;
     --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
-    --light-gray: rgba(255,255,255,0.7);
+    --light-gray: rgba(255, 255, 255, 0.877);
 }
 
 /* .header {
@@ -351,5 +351,13 @@ footer .column i + i {
    padding: 0 0.5em; 
 }
 
-
+/* sticky class */
+.sticky {
+    position: fixed;
+    top:0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
 
